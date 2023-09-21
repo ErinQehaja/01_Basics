@@ -1,7 +1,32 @@
 div{
-    color: aqua;
+    border-style: solid;
+    height: 100px;
 }
 
 .div1{
-    font-size: 40;
+    background-color: red;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+
+}
+
+.div2{
+    background-color: blue;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 50px;
+    left: 650px;
+}
+
+.div3{
+    background-color: green;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 50px;
+    left: 1200px;
 }
