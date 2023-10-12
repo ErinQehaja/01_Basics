@@ -49,6 +49,7 @@ table {
 
 .box {
     background-color: red;
+    padding: 10px;
     
 }
 
@@ -60,3 +61,12 @@ table {
     row-gap: 1px;
     column-gap: 1px;
 }
+
+.item1 {
+    grid-column-start: span 3;
+}
+
+.item5 {
+    grid-column-start: span 3;
+    height: 100px;
+} 
