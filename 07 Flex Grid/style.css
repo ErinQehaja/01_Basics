@@ -49,11 +49,14 @@ table {
 
 .box {
     background-color: red;
-    margin: 1px;
+    
 }
 
 .container {
     display: grid;
-    grid-template-columns: 100px 100px 100px;
+    grid-template-columns: auto auto auto;
     grid-template-rows: 100px 100px;
+    grid-auto-rows: minmax(150px auto);
+    row-gap: 1px;
+    column-gap: 1px;
 }
