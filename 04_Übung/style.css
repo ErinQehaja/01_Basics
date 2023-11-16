@@ -86,6 +86,10 @@ table {
     background-color: yellow;
     height: 300px;
     width: 300px;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .violetbox {
