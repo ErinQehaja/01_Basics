@@ -49,7 +49,7 @@ table {
 
 .headerup {
     background-color:rgb(152, 21, 21) ;
-    height: 50px;
+    height: 40px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -57,6 +57,52 @@ table {
 }
 
 .liste {
-    display: inline-block;
+	color: white;
+  	margin: 0;
+  	padding: 0;
 }
 
+.motto {
+	margin-right: 20px;
+	color: white;
+}
+
+.liste {
+	margin:10px;
+	width:1100px;
+}
+.liste li {
+	display:block;
+	width:120px;
+	float:left;
+	margin-left:2px;	
+}
+
+
+
+.liste li:hover {
+	color: rgb(226, 67, 67);
+}
+
+.header2 {
+	background-color: rgb(176, 13, 13);
+	height: 120px;
+	color: white;
+	display: flex;
+	align-items: center;
+}
+
+.vorarlberg {
+	margin-left: 40px;
+	font-size: 40px;
+}
+
+.smallbox {
+	background-color: rgb(224, 21, 21);
+	height: 15px;
+}
+
+.smallestbox {
+	background-color: rgb(255, 54, 87);
+	height: 3px;
+}
