@@ -51,15 +51,8 @@ table {
     background-color:rgb(152, 21, 21) ;
     height: 40px;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-}
-
-.liste {
-	color: white;
-  	margin: 0;
-  	padding: 0;
 }
 
 .motto {
@@ -70,6 +63,7 @@ table {
 .liste {
 	margin:10px;
 	width:1100px;
+	color: white;
 }
 .liste li {
 	display:block;
@@ -77,8 +71,6 @@ table {
 	float:left;
 	margin-left:2px;	
 }
-
-
 
 .liste li:hover {
 	color: rgb(226, 67, 67);
@@ -105,4 +97,86 @@ table {
 .smallestbox {
 	background-color: rgb(255, 54, 87);
 	height: 3px;
+}
+
+.menudown {
+	margin: 10px;
+	width:1100px;
+	color: white;
+}
+.menudown li {
+	display:block;
+	width:210px;
+	float:left;
+	margin-left:2px;	
+}
+
+.menudown li:hover {
+	color: rgb(226, 67, 67);
+}
+
+.headerdown {
+	background-color:rgb(125, 16, 13) ;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.whitebar {
+	background-color: white;
+	height: 15px;
+}
+
+.imageteaser{
+	background-image: url('./bilder/GetImage.jfif');
+	background-size: cover;
+	height: 400px;
+}
+
+.logoimage {
+	height: 0px;
+	
+	position: relative;
+	
+	width: 140px;
+	top: -85px;
+	left: 205px;
+}
+
+.writingbox {
+	background-color: white;
+	width: 1200px;
+	height: 100vh;
+	margin-left: 140px;
+	position: relative;
+	top: -60px;
+	padding-top: 20px;
+	padding-left: 40px;
+}
+
+.coronavirus {
+	color: gray;
+}
+
+.headline {
+	font-size: 50px;
+	margin-top: 20px;
+}
+
+.mainpart {
+	font-size: 40;
+	margin-top: 10px;
+}
+
+.bellimage {
+	height: 0px;
+	position: relative;
+	left: 1400px;
+	top: -35px;	
+}
+
+.bell {
+	width: 30px;
+    height: auto;
 }
