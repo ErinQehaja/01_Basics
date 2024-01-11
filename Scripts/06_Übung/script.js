@@ -1,3 +1,4 @@
-let randomnumber = Math.random() *40
+let randomnumber = Math.random() * 10 + 10;
+let random = Math.floor(randomnumber);
 
-console.log(randomnumber);
+console.log(random);
