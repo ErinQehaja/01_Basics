@@ -36,9 +36,8 @@ for(let index = 1; index <=4; index++) {
     }
 }
 
-for(let a = 1; a <=100; a++) {
-    console.log(a);
-}
+
+
 
 
 
