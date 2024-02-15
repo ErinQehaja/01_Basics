@@ -26,10 +26,3 @@ function supercalculation(a, b) {
 let result4 = supercalculation(5, 3);
 console.log(result4);
 
-N = 2024-1900
-A = N % 19
-B = [(7A+1)/19]
-M = (11A+4-B) % 29
-Q = [N/4]
-W = (N+Q+31-M) % 7
-P = 25-M-W
