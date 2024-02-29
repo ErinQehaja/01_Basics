@@ -4,7 +4,15 @@ let field = [
     [7,8,9]
 ];
 
-console.log(field [1][1]);
+for (let row = 0; row < field.length; row++) {
+    let currentRow = field[row];
+    let output = "";
+    for (let col = 0; col < currentRow.length; col++) {
+        output += currentRow[col] + " ";
+        
+    } 
+    console.log(output);
+}
     
 
 
