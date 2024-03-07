@@ -15,7 +15,7 @@ for (let row = 0; row < field.length; row++) {
 
 let winner = null;
 
-// Überprüfe, ob Spieler 1 gewonnen hat
+
 for (let row = 0; row < field.length; row++) {
     if (field[row][0] === 1 && field[row][1] === 1 && field[row][2] === 1) {
         winner = 1;
@@ -35,7 +35,7 @@ if ((field[0][0] === 1 && field[1][1] === 1 && field[2][2] === 1) ||
     winner = 1;
 }
 
-// Überprüfe, ob Spieler 2 gewonnen hat
+
 if (!winner) {
     for (let row = 0; row < field.length; row++) {
         if (field[row][0] === 2 && field[row][1] === 2 && field[row][2] === 2) {
@@ -57,7 +57,7 @@ if (!winner) {
     }
 }
 
-// Gib den Gewinner aus oder das Feld, wenn es keinen Gewinner gibt
+
 if (winner) {
     console.log("Player " + winner + " is the winner");
 } else {
