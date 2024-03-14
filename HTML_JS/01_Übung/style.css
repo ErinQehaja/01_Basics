@@ -1,0 +1,8 @@
+#sign {
+    height: 10px;
+    width: 10px;
+    border-color: black;
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
