@@ -1,7 +1,7 @@
 let field = [
     [1, 2, 2],
     [2, 2, 1],
-    [1, 1, 2]
+    [1, 1, 1]
 ];
 
 for (let row = 0; row < field.length; row++) {
