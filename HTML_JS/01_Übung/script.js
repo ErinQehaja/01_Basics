@@ -1,2 +1,1 @@
-let element = document.getElementById("content");
-console.log(element);
+document.getElementById("content").innerHTML = "Tolle Sache";
