@@ -6,3 +6,33 @@
     padding-left: 10px;
     padding-right: 10px;
 }
+
+#inputs {
+    display: flex;
+    justify-content: center;
+}
+
+#zeichen {
+    width: 700px;
+    left: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 30px;
+}
+
+#title {
+    position: relative;
+    left: 635px;
+}
+
+#result {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+    color: gold;
+    background-color: black;
+    width: 200px;
+    left: 636px;
+}

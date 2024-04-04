@@ -11,16 +11,23 @@
 </head>
 
 <body>
-    <h1>Erin`s Rechner</h1>
+    <div id="title">
+        <h1>Erin`s Rechner</h1>
+    </div>
     <div id="content">
-        A<input type="text" id="number1" />
-        <div id="sign"></div>
-        B<input type="text" id="number2" />
-        <button onclick="buttonPlus()">+</button>
-        <button onclick="buttonMinus()">-</button>
-        <button onclick="buttonMultiply()">*</button>
-        <button onclick="buttonDivide()">/</button>
-        <button onclick="buttonClick()">Berechnen</button>
+        <div id="inputs">
+            <input type="text" id="number1" />
+            <div id="sign"></div>
+            <input type="text" id="number2" />
+        </div>
+        <div id="zeichen">
+            <button onclick="buttonPlus()">+</button>
+            <button onclick="buttonMinus()">-</button>
+            <button onclick="buttonMultiply()">*</button>
+            <button onclick="buttonDivide()">/</button>
+            <button onclick="buttonClick()">Berechnen</button>
+        </div>
+        <div id="result"></div>
     </div>
 </body>
 

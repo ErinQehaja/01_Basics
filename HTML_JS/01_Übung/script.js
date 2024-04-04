@@ -50,6 +50,10 @@ function buttonClick() {
         default:
             result = 'Invalid Operation';
     }
-    console.log(result);
+    displayResult(result);
+}
+function displayResult(result) {
+    let resultDiv = document.getElementById('result');
+    resultDiv.textContent = "Result: " + result;
 }
 
