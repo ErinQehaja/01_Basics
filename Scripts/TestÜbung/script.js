@@ -44,7 +44,7 @@ console.log(zähler);
 
 // Temperatur Beispiel
 
-const temperatures = "-1,5,51,-10,-11,2,90,-8,-44";
+const temperatures = "-1,5,51,1,-10,-11,2,90,-8,-44";
 const arrtemp = temperatures.split(",").map(Number); // Konvertiere Strings in Zahlen
 
 let closestIndex = 0;
@@ -59,3 +59,21 @@ for (let i = 1; i < arrtemp.length; i++) {
 }
 
 console.log("Die Zahl am nächsten zu 0 ist:", arrtemp[closestIndex]);
+
+// Temperatur Beispiel erweitert
+
+const temperatureData = "-1,5,51,1,-10,-11,2,90,-8,-44";
+const temperatureArray = temperatureData.split(",").map(Number); // Konvertiere Strings in Zahlen
+
+let closestIndexTemp = 0;
+let minDistanceTemp = Math.abs(temperatureArray[0]); // Initialisiere mit dem Abstand der ersten Zahl zu 0
+
+for (let i = 1; i < temperatureArray.length; i++) {
+    const distance = Math.abs(temperatureArray[i]);
+    if (distance < minDistanceTemp || (distance === minDistanceTemp && temperatureArray[i] > 0)) {
+        minDistanceTemp = distance;
+        closestIndexTemp = i;
+    }
+}
+
+console.log("Die Zahl am nächsten zu 0 ist:", temperatureArray[closestIndexTemp]);
