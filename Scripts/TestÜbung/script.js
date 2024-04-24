@@ -13,7 +13,7 @@ for (let index = arrdata.length - 1; index >= 0; index--) {
 console.log(placeholder);
 
 
-const numbers = "4,6,8,2,7,1,2,2";
+const numbers = "6,8,3,6,3,6,4,6,3,5,8,9";
 
 let arrnumbers = numbers.split(",");
 
@@ -31,3 +31,9 @@ for (let index = 0; index < arrnumbers.length; index++) {
 }
 
 console.log(currentnumber, count);
+
+const numbers2 = "4,6,8,2,7,1,2,2,4,2,4";
+let arrnumbers2 = numbers2.split(",");
+let zähler = arrnumbers2.length
+
+console.log(zähler);
