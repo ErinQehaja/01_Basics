@@ -77,3 +77,7 @@ for (let i = 1; i < temperatureArray.length; i++) {
 }
 
 console.log("Die Zahl am nächsten zu 0 ist:", temperatureArray[closestIndexTemp]);
+
+
+
+
