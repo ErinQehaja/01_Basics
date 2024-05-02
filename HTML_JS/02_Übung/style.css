@@ -1,0 +1,25 @@
+#number1 {
+    position: relative;
+    top: 80px;
+    left: 500px;
+}
+
+#number2 {
+    position: relative;
+    top: 60px;
+    left: 800px;
+}
+
+button {
+    position: relative;
+    top: 90px;
+    left: 643px;
+    height: 40px;
+    width: 160px;
+}
+
+#output {
+    position: relative;
+    left: 710px;
+    top: 110px;
+}
