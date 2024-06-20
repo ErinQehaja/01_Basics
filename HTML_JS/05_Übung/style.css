@@ -1,0 +1,54 @@
+.spielbereich {
+    border-style: solid;
+    width: 700px;
+    height: 400px;
+    position: relative;
+    left: 300px;
+    top: 130px;
+}
+
+.leftPlayer {
+    position: relative;
+    top: 170px;
+    left: 70px;
+    height: 40px;
+    width: 40px;
+}
+
+.rightPlayer {
+    position: relative;
+    top: 170px;
+    left: 530px;
+    height: 40px;
+    width: 40px;
+}
+
+.leftResult {
+    border-style: solid;
+    width: 120px;
+    height: 90px;
+    position: relative;
+    left: 170px;
+    top: 105px;
+    background-image: url('schere.jpg');
+    background-image: url('stein.jpg');
+    background-image: url('papier.jpg');
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.rightResult {
+    border-style: solid;
+    width: 120px;
+    height: 90px;
+    position: relative;
+    left: 390px;
+    top: 13px;
+    background-image: url('schere (1).jpg');
+    background-image: url('stein (1).jpg');
+    background-image: url('papier (1).jpg');
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
